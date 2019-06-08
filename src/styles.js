@@ -13,16 +13,14 @@ export const setFont = {
 };
 
 export const setFlex = ({ x = "center", y = "center" } = {}) => {
-  return `display:flex;align-items:${y};justify-content:${x}`;
+  return `display: flex; align-items: ${y}; justify-content: ${x}`;
 };
 
-export const setBackground = ({
-  img = "https://images.pexels.com/photos/1628086/pexels-photo-1628086.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-  color = "rgba(0,0,0,0)"
-} = {}) => {
-  return `background: linear-gradient(${color}, ${color}),
-    url(${img}) center/cover fixed no-repeat`;
-};
+export const setBackground = ({img='https://www.labaleine.fr/sites/baleine/files/image-not-found.jpg', color1="transparent", color2="transparent"2 }={}) => {
+  return `background: linear-gradient(${color1}, ${color2}),
+  url(${img}) center/cover fixed no-repeat;`
+}
+  
 
 export const setRem = (number = 16) => {
   return `${number / 16}rem`;

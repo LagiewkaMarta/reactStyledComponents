@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import {setColor, setFont} from "../../styles";
+import { setColor, setFont } from "../../styles";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap&subset=latin-ext');
