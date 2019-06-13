@@ -21,3 +21,7 @@ export const PrimaryBtn = styled.button`
     ${({t,r,b,l}) => `margin: ${t || 0 } ${r || 0 } ${b || 0 } ${l || 0 }`};
 
 `
+
+export const SmallBtn = styled(PrimaryBtn)`
+padding: ${setRem(9)} ${setRem(12)};
+`
