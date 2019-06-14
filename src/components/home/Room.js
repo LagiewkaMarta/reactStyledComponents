@@ -23,7 +23,7 @@ const Room = ({ className, room }) => {
       <div className="room-info">
         <h4>{title}</h4>
         <p>{info}</p>
-        <SmallBtn>hi!</SmallBtn>
+        <SmallBtn>see more</SmallBtn>
       </div>
     </article>
   );
