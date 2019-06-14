@@ -18,7 +18,7 @@ const Room = ({ className, room }) => {
     <article className={className}>
       <div className="img-container">
         <img src={img} alt="single room" />
-        <div className="price" >{price}</div>
+        <div className="price" >$ {price}</div>
       </div>
       <div className="room-info">
         <h4>{title}</h4>
